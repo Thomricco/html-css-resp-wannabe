@@ -73,6 +73,38 @@ img {
 }
 
 
+
+
+/* tablet */
+@media screen and (min-width: 576px) and (max-width: 1199px) {
+    
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+      width: 100%;
+      margin: 0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 50%;
+    margin: 0;
+
+  }
+  
+
+  #lezioni .row {
+    background-color: rgb(140, 198, 216);
+  }
+
+  #why .row {
+    background-color: rgb(140, 198, 216);
+  }
+}
+
+
+
+
 /* mobile */
 
 @media screen and (max-width: 575px) {
